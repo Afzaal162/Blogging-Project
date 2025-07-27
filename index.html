@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afzaal Blogs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="scroll-indicator"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">H Blog</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+            </ul>
+            <button class="theme-toggle" onclick="toggleTheme()">🌙 Dark</button>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div>
+            <h1>Welcome to <span class="typing-text">Afzaal Blogs</span></h1>
+            <p>Discover amazing stories, insights, and knowledge from our community of passionate writers.</p>
+            <a href="#blogs" class="cta-button">Read Blogs</a>
+        </div>
+    </section>
+
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <h2 class="section-title">Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🎯</div>
+                <h3>SEO Optimization</h3>
+                <p>Boost your content's visibility with our expert SEO strategies and keyword optimization techniques.
+                </p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">✍️</div>
+                <h3>Content Writing</h3>
+                <p>Professional content creation services that engage your audience and drive meaningful conversations.
+                </p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🎨</div>
+                <h3>Design & Branding</h3>
+                <p>Create a stunning visual identity that represents your brand and captivates your target audience.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <h2 class="section-title">About Us</h2>
+    <section id="about" class="section" style="display: flex; align-items: center; gap: 2rem;">
+        <!-- Image Column -->
+        <div class="about-image" style="flex: 1;">
+            <img src="./images/business-workshop-team-recording-video-blog-phone-office-171350674.webp"
+                alt="Blooming Team" style="width: 100%; height: auto; border-radius: 10px;" />
+        </div>
+
+        <!-- Text Column -->
+        <div class="about-content" style="flex: 1;">
+            <div class="about-text">
+                <h3>Crafting Stories That Matter</h3>
+                <p>We're a passionate team of writers, designers, and digital strategists who believe in the power of
+                    storytelling. Our mission is to help brands and individuals share their unique voices with the
+                    world.</p>
+                <p>With years of experience in content creation and digital marketing, we've helped hundreds of clients
+                    build their online presence and connect with their audiences in meaningful ways.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="team-grid">
+        <div class="team-card">
+            <div class="team-avatar">AH</div>
+            <h3>Afzaal Hassan</h3>
+            <p>Lead Content Strategist</p>
+        </div>
+        <div class="team-card">
+            <div class="team-avatar">BH</div>
+            <h3>Bilal Hassan</h3>
+            <p>Senior Writer</p>
+        </div>
+        <div class="team-card">
+            <div class="team-avatar">TH</div>
+            <h3>Talal Hassan</h3>
+            <p>Design Director</p>
+        </div>
+    </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blogs" class="section">
+        <h2 class="section-title">Latest Blogs</h2>
+        <div class="blog-grid">
+            <article class="blog-card">
+                <img src="./images/download (1).png" alt="">
+                <div class="blog-content">
+                    <h3>The Future of Web Development</h3>
+                    <p>Explore the latest trends and technologies shaping the future of web development, from AI
+                        integration to progressive web apps.</p>
+                    <button class="read-more-btn"
+                        onclick="openModal('The Future of Web Development', 'Explore the latest trends and technologies shaping the future of web development. From AI integration to progressive web apps, discover what\'s coming next in the world of web development.')">Read
+                        More</button>
+                </div>
+            </article>
+
+            <article class="blog-card">
+                <img src="./images/images (9).jpeg" alt="">
+                <div class="blog-content">
+                    <h3>Content Marketing Strategies</h3>
+                    <p>Learn proven content marketing strategies that drive engagement, build brand awareness, and
+                        convert visitors into customers.</p>
+                    <button class="read-more-btn"
+                        onclick="openModal('Content Marketing Strategies', 'Learn proven content marketing strategies that drive engagement and convert visitors. This comprehensive guide covers everything from content planning to distribution and performance measurement.')">Read
+                        More</button>
+                </div>
+            </article>
+
+            <article class="blog-card">
+                <img src="./images/DAM__672____428__px___4_.png" alt="">
+                <div class="blog-content">
+                    <h3>Design Thinking Process</h3>
+                    <p>Understanding the design thinking methodology and how it can transform your approach to
+                        problem-solving and innovation.</p>
+                    <button class="read-more-btn"
+                        onclick="openModal('Design Thinking Process', 'Understanding the design thinking methodology and how it transforms problem-solving. Learn the five stages of design thinking and how to apply them in your projects.')">Read
+                        More</button>
+                </div>
+            </article>
+
+            <article class="blog-card">
+                <img src="./images/seo-for-developers.webp" alt="">
+                <div class="blog-content">
+                    <h3>SEO Best Practices 2025</h3>
+                    <p>Stay ahead of the curve with the latest SEO techniques and algorithm updates that will dominate
+                        search rankings this year.</p>
+                    <button class="read-more-btn"
+                        onclick="openModal('SEO Best Practices 2025', 'Stay ahead with the latest SEO techniques and algorithm updates. This guide covers everything from technical SEO to content optimization strategies for 2025.')">Read
+                        More</button>
+                </div>
+            </article>
+
+            <article class="blog-card">
+                <img src="./images/images (10).jpeg" alt="">
+                <div class="blog-content">
+                    <h3>Building Brand Identity</h3>
+                    <p>A comprehensive guide to creating a strong brand identity that resonates with your target
+                        audience and stands out in the market.</p>
+                    <button class="read-more-btn"
+                        onclick="openModal('Building Brand Identity', 'A comprehensive guide to creating a strong brand identity that resonates with your audience. Learn about brand strategy, visual identity, and brand voice development.')">Read
+                        More</button>
+                </div>
+            </article>
+            <article class="blog-card">
+                <img src="./images/download (4).jpeg" alt="">
+                <div class="blog-content">
+                    <h3>Impact of AI</h3>
+                    <p>A comprehensive guide to impact of Artifical intelligence of the modern worl. </p>
+                    <button class="read-more-btn"
+                        onclick="openModal('Building Brand Identity', 'A comprehensive guide to creating a strong brand identity that resonates with your audience. Learn about brand strategy, visual identity, and brand voice development.')">Read
+                        More</button>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="blogModal" class="modal">
+        <div class="modal-content">
+            <button class="close-modal" onclick="closeModal()">&times;</button>
+            <h2 id="modalTitle"></h2>
+            <p id="modalContent"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
