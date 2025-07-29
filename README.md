@@ -4,15 +4,15 @@ A responsive and dynamic blogging website built using HTML, CSS, and JavaScript.
 
 ## 🚀 Live Demo
 
-[Click here to view the live site](#)  
-*(Replace with GitHub Pages link or Netlify/Vercel URL once deployed)*
+[(https://afzaal162.github.io/H-Blogs/)](#)  
 
 ---
 
 ## 📸 Preview
 
-![Blogging Website Screenshot](./images/screenshot.png)  
-*(Include a screenshot of your full blog layout)*
+![Blogging Website Screenshot] 
+![images (10)](https://github.com/user-attachments/assets/2ed74bee-ca21-46c2-8f26-fc145449173d)
+
 
 ---
 
