@@ -11,7 +11,8 @@ A responsive and dynamic blogging website built using HTML, CSS, and JavaScript.
 ## 📸 Preview
 
 ![Blogging Website Screenshot] 
-![digital-nomad-t](https://github.com/user-attachments/assets/c9ce7e8a-943b-4330-a7d7-43437a825973)
+
+<img width="1347" height="608" alt="Blogging Website Screeshort" src="https://github.com/user-attachments/assets/d67eaf3a-b694-46c1-8e8e-f90bf391f349" />
 
 ## ✨ Features
 
